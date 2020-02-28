@@ -1,0 +1,10 @@
+name: Movies
+form: $/boolfalse/movies/models/movie/fields.yaml
+modelClass: Boolfalse\Movies\Models\Movie
+defaultRedirect: boolfalse/movies/movies
+create:
+    redirect: 'boolfalse/movies/movies/update/:id'
+    redirectClose: boolfalse/movies/movies
+update:
+    redirect: boolfalse/movies/movies
+    redirectClose: boolfalse/movies/movies

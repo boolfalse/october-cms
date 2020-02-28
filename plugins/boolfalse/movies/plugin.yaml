@@ -1,0 +1,11 @@
+plugin:
+    name: 'boolfalse.movies::lang.plugin.name'
+    description: 'boolfalse.movies::lang.plugin.description'
+    author: boolfalse
+    icon: oc-icon-video-camera
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Movies
+        url: boolfalse/movies/movies
+        icon: icon-video-camera
